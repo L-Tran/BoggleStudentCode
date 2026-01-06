@@ -1,9 +1,9 @@
-Name: YOUR NAME HERE
+Name: Logan Tran
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date      | Time  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Update |
+|:----------|:-----:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| January 5 | 5-6pm | My initial idea is to use breathe first search from every node and compare each path/word to the dictionary, however I know this will be very inefficient so I thought of new idea. I thought of using DFS instead so I can go down specific paths and also use a TST to store the words. The TST will insure that the words exist and can tell me when to stop if the prefix is not in the dictionary. This is the best method I have came up with but I am a little stuck on the DFS part and how to incorporate it with my dictionary TST. |
+|           |       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
