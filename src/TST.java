@@ -66,7 +66,7 @@ public class TST {
     }
 
     // Search for word
-    public boolean search(String word) {
+    public TSTNode search(String word) {
         TSTNode current = root;
         int i = 0;
         // Make sure current node is not null
@@ -88,7 +88,7 @@ public class TST {
                 // Make sure the end of the word is not reached
                 if(i + 1 == word.length()){
                     // Return if the word is word or not if it is the end of the word
-                    return current.isWord();
+                    return current;
                 }
                 // Go to next letter
                 i++;
@@ -97,7 +97,7 @@ public class TST {
             }
         }
         // Return false if it is null
-        return false;
+        return null;
     }
 
 }
